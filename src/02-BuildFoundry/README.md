@@ -63,7 +63,7 @@ cd 02-BuildFoundry
            return storedValue;
        }
    }
-
+````
 2.	在 test/ 目录下编写一个测试文件，例如 SimpleStorage.t.sol。
 
 ```solidity
@@ -85,7 +85,7 @@ cd 02-BuildFoundry
           assertEq(simpleStorage.get(), 42);
       }
   }
-
+```
 
 ### 运行测试
 
@@ -102,15 +102,15 @@ cd 02-BuildFoundry
 
 ```bash
 forge test
-
+```
 使用中等详细度运行测试：
 
 ```bash
 forge test -vv
-
+```
 使用最高详细度运行测试：
 
 ```bash
 forge test -vvvv
-
+```
 根据需要选择适合的详细程度来调试和分析你的智能合约测试结果。
